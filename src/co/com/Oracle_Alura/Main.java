@@ -1,5 +1,6 @@
 package co.com.Oracle_Alura;
 
+import co.com.Oracle_Alura.controlador.EjecucionConversor;
 import co.com.Oracle_Alura.modelo.ConversorDeLongitud;
 import co.com.Oracle_Alura.modelo.ConversorDeMasa;
 import co.com.Oracle_Alura.modelo.ConversorDeMoneda;
@@ -26,6 +27,8 @@ public class Main {
 		ConversorDeMasa ejem6 = new ConversorDeMasa("t", "kg", 2.2);
 		System.out.println(ejem6.conversion());
 		
+		
+		EjecucionConversor.ejecutarConversor();
 		
 	}
 
